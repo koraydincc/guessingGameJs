@@ -1,0 +1,52 @@
+
+
+
+.inp-but{
+    display: grid;
+    grid-template-columns: 10rem 5rem 8rem;
+    column-gap: 1rem;
+    width: 10rem;
+    margin: 3rem;
+}
+
+
+.button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 8px 10px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover{
+    background-color: #333333;
+    color: #fff;
+}
+
+.input{
+    border-radius: 8px;
+   
+}
+
+.rnd-box{
+    margin: 3rem;
+}
+
+.rnd-sayi{
+    display: none;
+}
